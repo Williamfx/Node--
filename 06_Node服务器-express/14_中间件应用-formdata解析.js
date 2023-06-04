@@ -3,7 +3,7 @@ const express = require('express')
 const multer = require('multer')
 
 // 创建app对象
-const app = express()
+const app = new express()
 
 // express内置的插件，无法解析formdata
 // app.use(express.json())
